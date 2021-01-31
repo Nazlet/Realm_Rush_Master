@@ -455,7 +455,7 @@ TextMesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4758521839558958379}
-  m_Text: 0, 0
+  m_Text: Cube00
   m_OffsetZ: 0
   m_CharacterSize: 1
   m_LineSpacing: 1
@@ -519,7 +519,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b731f947c01d74c1f9ec09bba1a91b88, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gridSize: 10
 --- !u!114 &1566525931501393445
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -545,7 +544,7 @@ GameObject:
   - component: {fileID: 1215839128688110870}
   - component: {fileID: 834198531428459563}
   m_Layer: 0
-  m_Name: 'Top '
+  m_Name: Top
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
