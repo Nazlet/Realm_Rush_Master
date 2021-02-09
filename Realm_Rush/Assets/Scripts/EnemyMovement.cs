@@ -28,11 +28,7 @@ public class EnemyMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+    }
 
-    }
-    private void OnParticleCollision(GameObject other)
-    {
-        print("hit" + gameObject.name);
-        Destroy(gameObject);
-    }
+
 }
