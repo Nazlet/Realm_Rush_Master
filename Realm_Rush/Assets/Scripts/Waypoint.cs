@@ -7,8 +7,10 @@ public class Waypoint : MonoBehaviour
     // ok as is a data class
     public bool isExplored;
     public Waypoint exploredFrom;
+    public bool isPlaceable = true;
 
     Vector2Int gridPos;
+
     const int gridSize = 10;
 
     // Start is called before the first frame update
@@ -32,7 +34,19 @@ public class Waypoint : MonoBehaviour
 
     private void OnMouseOver()
     {
-        print(gameObject.name);
+        if (Input.GetMouseButtonDown(0))
+        {
+            if (isPlaceable)
+            {
+                print(gameObject.name + " tower placement");
+            }
+            else
+            {
+                print(gameObject.name + " Can't place here");
+            }
+        }
+            
+
     }
 
     
