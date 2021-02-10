@@ -8,6 +8,7 @@ public class Waypoint : MonoBehaviour
     public bool isExplored;
     public Waypoint exploredFrom;
     public bool isPlaceable = true;
+
     [SerializeField] Tower towerPrefab;
 
     Vector2Int gridPos;
@@ -44,7 +45,7 @@ public class Waypoint : MonoBehaviour
             }
             else
             {
-                
+                print("can't place here");
             }
         }
             
