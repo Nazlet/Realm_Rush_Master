@@ -61,6 +61,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d4ec526836b48402fac5d9539c513be1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  movementPeriod: 0.5
+  destructionDelay: 1
+  endParticlePrefab: {fileID: 4658906571252599174, guid: 787fca1d912e54b8ea09046521a59b04,
+    type: 3}
 --- !u!1 &1646541640735296
 GameObject:
   m_ObjectHideFlags: 0

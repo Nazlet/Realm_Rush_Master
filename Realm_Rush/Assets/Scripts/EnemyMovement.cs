@@ -4,7 +4,9 @@ using UnityEngine;
 
 public class EnemyMovement : MonoBehaviour
 {
-    
+    [SerializeField] float movementPeriod = .5f;
+    [SerializeField] float destructionDelay = 1f;
+    [SerializeField] ParticleSystem endParticlePrefab;
 
     // Start is called before the first frame update
     void Start()
@@ -20,9 +22,12 @@ public class EnemyMovement : MonoBehaviour
         foreach (Waypoint waypoint in path)
         {
             transform.position = waypoint.transform.position;
-            yield return new WaitForSeconds(1f);
+            yield return new WaitForSeconds(movementPeriod);
         }
-        print("Ending patrol");
+        var deathfx = Instantiate(endParticlePrefab, transform.position, Quaternion.identity);
+        deathfx.Play();
+        Destroy(deathfx.gameObject, deathfx.main.duration);
+        Destroy(gameObject, destructionDelay);
     }
 
     // Update is called once per frame

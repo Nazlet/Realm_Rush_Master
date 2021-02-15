@@ -260,7 +260,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   startWaypoint: {fileID: 56663039}
-  endWaypoint: {fileID: 1659451904}
+  endWaypoint: {fileID: 342868143}
 --- !u!114 &21851339
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2289,6 +2289,18 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1130893222}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &342868143 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1566525931501393445, guid: 89558aaca960449df97193ba7b113e14,
+    type: 3}
+  m_PrefabInstance: {fileID: 2044924446}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 271e5dfdc46a442eda8dad93bfbbaafc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &350357841
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5907,7 +5919,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dd5fef55fcf964d069fe797a2c9ec4fe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  secondsBetweenSpawns: 4
+  secondsBetweenSpawns: 1
   enemyPrefab: {fileID: 3936184822614809605, guid: 04f81ff9814844ccfa08226f8d46a3f4,
     type: 3}
   enemyParentTransform: {fileID: 898451283}
@@ -10987,18 +10999,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 2107281075}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1659451904 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 1566525931501393445, guid: 89558aaca960449df97193ba7b113e14,
-    type: 3}
-  m_PrefabInstance: {fileID: 2107281075}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 271e5dfdc46a442eda8dad93bfbbaafc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1672611252
 GameObject:
   m_ObjectHideFlags: 0
