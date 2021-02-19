@@ -4948,11 +4948,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ba9e1e0f7b214b7196c36ca8e84bf67, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hits: 20
+  hits: 5
   hitParticlePrefab: {fileID: 7124062361581986537}
   deathParticlePrefab: {fileID: 198537984209914932, guid: 1a51bfda454239a41afb7dee687c6ac0,
     type: 3}
   damageSFX: {fileID: 8300000, guid: d2cd0f9a50af24816879506a95c97765, type: 3}
+  enemyDeathSFX: {fileID: 8300000, guid: 05d8c67a057374343b35f97583951946, type: 3}
 --- !u!82 &2791764095566401555
 AudioSource:
   m_ObjectHideFlags: 0
